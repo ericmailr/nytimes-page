@@ -123,8 +123,9 @@ header {
 /* article */
 
 article {
-    margin: 0 250px;
+    margin: 0 auto;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    width: 50%;
 }
 
 #photo-caption {
@@ -143,6 +144,7 @@ article {
 .article-text p {
     font-size: 1.1875rem;
     line-height: 1.75rem;
+    margin: 20px 0;
 }
 
 #social-media-wrapper {
@@ -165,6 +167,7 @@ article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: 30px 0;
 }
 
 #inflation-wrapper li {
